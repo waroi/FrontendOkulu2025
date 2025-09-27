@@ -34,10 +34,57 @@
       </tbody>
     </table> -->
     <form>
-      <div>
-        <label for="name">Adınız:</label>
-        <input type="text" id="name" name="name" />
-      </div>
+      <table>
+        <tbody>
+          <tr>
+            <td><label for="name">Adınız:</label></td>
+            <td><input type="text" id="name" name="name" /></td>
+          </tr>
+          <tr>
+            <td><label for="email">Email:</label></td>
+            <td><input type="email" id="email" name="email" /></td>
+          </tr>
+          <tr>
+            <td><label for="birthdate">Doğum Tarihi:</label></td>
+            <td><input type="date" id="birthdate" name="birthdate" /></td>
+          </tr>
+          <tr>
+            <td><label for="password">Şifre:</label></td>
+            <td><input type="password" id="password" name="password" /></td>
+          </tr>
+          <tr>
+            <td><label>Cinsiyet:</label></td>
+            <td>
+              <input type="radio" id="male" name="gender" value="male" />
+              <label for="male">Erkek</label>
+              <input type="radio" id="female" name="gender" value="female" />
+              <label for="female">Kadın</label>
+            </td>
+          </tr>
+          <tr>
+            <td><label>Programlama Dilleri:</label></td>
+            <td>
+              <input
+                type="checkbox"
+                id="javascript"
+                name="languages"
+                value="javascript"
+              />
+              <label for="javascript">JavaScript</label>
+              <input
+                type="checkbox"
+                id="python"
+                name="languages"
+                value="python"
+              />
+              <label for="python">Python</label>
+              <input type="checkbox" id="java" name="languages" value="java" />
+              <label for="java">Java</label>
+            </td>
+          </tr>
+        </tbody>
+      </table>
+      <input type="submit" value="Gönder" />
     </form>
   </body>
 </html>
