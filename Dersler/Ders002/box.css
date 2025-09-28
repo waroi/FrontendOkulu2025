@@ -1,0 +1,32 @@
+*{
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+.box {
+  height: 60px;
+  width: 250px;
+  margin: 10px;
+  /* margin-top: 10px;
+  margin-right: 20px;
+  margin-bottom: 5px;
+  margin-left: 15px; */
+  /* border: 1px solid black; */
+}
+
+.red {
+  background-color: red;
+  margin-left: 50px;
+  padding: 20px 0;
+}
+
+.green {
+  background-color: green;
+  margin-bottom: 50px;
+}
+
+.blue {
+  background-color: blue;
+  margin: 100px 20px 70px 40px;
+}
