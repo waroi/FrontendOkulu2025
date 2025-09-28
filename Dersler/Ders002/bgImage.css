@@ -1,7 +1,7 @@
 .bgImage{
   background-image: url("https://img.freepik.com/free-photo/futuristic-metaverse-empty-room-product-display-presentation-abstract-technology-scifi-with-neon-light-3d-background_56104-2314.jpg");
-  width: 500px;
-  height: 300px;
+  width: 1000px;
+  height: 600px;
   color: whitesmoke;
   padding: 20px;
   background-size: cover;
@@ -26,8 +26,8 @@
     font-size: 12px;
   }
   .bgImage{
-    width: 300px;
-    height: 200px;
+    width: 500px;
+    height: 300px;
     padding: 10px;
     color: burlywood;
   }

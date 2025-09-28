@@ -1,0 +1,76 @@
+/* Psuedo class */
+.link {
+    color: rgb(26, 150, 76);
+    text-decoration: none;
+}
+
+.link:hover {
+  color: tomato;
+}
+
+.link:visited {
+  color: purple;
+}
+
+.link:active {
+  color: orange;
+}
+
+.list_item{
+  color: cadetblue;
+}
+
+/* .list_item:first-child {
+  font-weight: bold;
+  color: brown;
+}
+
+.list_item:last-child {
+  font-style: italic;
+  color: rgb(243, 66, 2);
+} */
+
+/* .list_item:nth-child(2) {
+  font-weight: bold;
+  color: brown;
+} */
+
+/* .list_item:nth-child(odd) {
+  font-weight: bold;
+  color: brown;
+} */
+
+/* .list_item:nth-child(even) {
+  font-weight: bold;
+  color: brown;
+} */
+
+/* .list_item:nth-child(-n+6) {
+  font-weight: bold;
+  color: brown;
+} */
+
+/* Psuedo Element */
+
+p{
+  font-size: 20px;
+  color: cadetblue;
+}
+p::first-letter {
+  font-size: 200%;
+  color: tomato;
+}
+.text::first-line {
+  font-weight: bold;
+  color: brown;
+}
+.text::after{
+  color: chartreuse;
+  content: "Merhaba ben sona eklendim";
+  font-size: 30px;
+}
+.text::before{
+  color: chartreuse;
+  content: "Merhaba ben başa eklendim";
+  font-size: 30px;
+}
