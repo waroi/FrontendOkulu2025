@@ -20,6 +20,8 @@
 - [Bootstrap Eğitimi](https://www.btkakademi.gov.tr/portal/course/bootstrap-5-24619)
 - [Vue Eğitimi](https://www.btkakademi.gov.tr/portal/course/vue-js-22502)
 - [Git/Github Eğitimi](https://www.btkakademi.gov.tr/portal/course/versiyon-kontrolleri-git-ve-github-19439)
+- [Flexbox Oyunu](https://flexboxfroggy.com/#tr)
+- [Grid Oyunu](https://cssgridgarden.com/#tr)
 
 ## Okumalar
 

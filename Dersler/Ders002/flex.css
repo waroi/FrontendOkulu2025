@@ -22,10 +22,38 @@ p{
   justify-content: center; /* yatayda ortala */
   align-items: center; /* dikeyde ortala */
   justify-content: space-evenly; /* eşit boşluk bırak */
+  flex-wrap: wrap; /* taşma durumunda alt satıra geç */
 }
 
 .box{
   width: 200px;
   height: 200px;
   background-color: tomato;
+}
+
+.box1{
+  order: 1; /* sırayı değiştir */
+}
+.box2{
+  order: 2; /* sırayı değiştir */
+}
+.box3{
+  order: 3; /* sırayı değiştir */
+}
+
+@media screen and (max-width: 768px) {
+  .box1 {
+      order: 3;
+      /* sırayı değiştir */
+    }
+  
+    .box2 {
+      order: 1;
+      /* sırayı değiştir */
+    }
+  
+    .box3 {
+      order: 2;
+      /* sırayı değiştir */
+    }
 }
