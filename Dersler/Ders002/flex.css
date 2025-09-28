@@ -1,0 +1,31 @@
+*{
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+h2{
+  font-size: 20px;
+}
+
+p{
+  font-size: 16px;
+}
+
+.container{
+  width: 90%;
+  height: 700px;
+  margin: 0 auto;
+  background-color: lightgray;
+  display: flex;
+  flex-direction: row; /* satır yönünde hizalama */
+  justify-content: center; /* yatayda ortala */
+  align-items: center; /* dikeyde ortala */
+  justify-content: space-evenly; /* eşit boşluk bırak */
+}
+
+.box{
+  width: 200px;
+  height: 200px;
+  background-color: tomato;
+}
