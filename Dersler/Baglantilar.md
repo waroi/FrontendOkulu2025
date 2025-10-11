@@ -14,6 +14,9 @@
 - [Flex Css Tricks](https://css-tricks.com/snippets/css/a-guide-to-flexbox/)
 - [D3.js](https://d3js.org/)
 - [Three.js](https://threejs.org/)
+- [Font Awesome](https://fontawesome.com/)
+- [Google Fonts](https://fonts.google.com/)
+- [GSAP](https://gsap.com/)
 
 ## Extra Kaynaklar
 

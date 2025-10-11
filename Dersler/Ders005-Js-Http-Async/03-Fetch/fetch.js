@@ -72,6 +72,19 @@ class Request {
 // Request.post("https://jsonplaceholder.typicode.com/posts", {
 //   userId: 435345345,
 //   title: "Deneme Başlık",
+//   body: "Deneme Body",
 // })
+//   .then((data) => console.log(data))
+//   .catch((error) => console.log(error));
+
+// Request.put("https://jsonplaceholder.typicode.com/posts/1", {
+//   userId: 1,
+//   title: "Deneme Başlık",
+//   body: "Deneme Body",
+// })
+//   .then((data) => console.log(data))
+//   .catch((error) => console.log(error));
+
+// Request.delete("https://jsonplaceholder.typicode.com/posts/1")
 //   .then((data) => console.log(data))
 //   .catch((error) => console.log(error));
