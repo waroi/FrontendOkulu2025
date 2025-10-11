@@ -17,6 +17,7 @@
 - [Font Awesome](https://fontawesome.com/)
 - [Google Fonts](https://fonts.google.com/)
 - [GSAP](https://gsap.com/)
+- [JSON-Server](https://github.com/typicode/json-server/tree/v0) - Fake REST API
 
 ## Extra Kaynaklar
 
