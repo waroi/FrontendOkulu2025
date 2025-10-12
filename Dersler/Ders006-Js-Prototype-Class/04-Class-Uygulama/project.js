@@ -5,9 +5,6 @@ const directorElement = document.getElementById("director");
 const urlElement = document.getElementById("url");
 const clear = document.getElementById("clear-films");
 
-// UI Objesi
-const ui = new UI();
-
 // Eventler
 eventListeners();
 function eventListeners() {
@@ -18,14 +15,14 @@ function eventListeners() {
 }
 
 function clearAllFilms() {
-  ui.clearAllFilmsFromUI();
-  ui.displayMessages("Tüm filmler silindi", "danger");
+  UI.clearAllFilmsFromUI();
+  UI.displayMessages("Tüm filmler silindi", "danger");
 }
 
 function deleteFilm(e) {
   console.log(e);
   if (e.target.id === "delete-film") {
-    ui.deleteFilmFromUI(e.target);
+    UI.deleteFilmFromUI(e.target);
   }
   console.log(e.target);
 }
@@ -35,12 +32,12 @@ function addFilm(e) {
   const director = directorElement.value;
   const url = urlElement.value;
   if (title === "" || director === "" || url === "") {
-    ui.displayMessages("Tüm alanları doldurun...", "danger");
+    UI.displayMessages("Tüm alanları doldurun...", "danger");
   } else {
     const newFilm = new Film(title, director, url);
-    ui.addFilmToUI(newFilm);
-    ui.clearInputs(titleElement, directorElement, urlElement);
-    ui.displayMessages("Film başarıyla eklendi...", "success");
+    UI.addFilmToUI(newFilm);
+    UI.clearInputs(titleElement, directorElement, urlElement);
+    UI.displayMessages("Film başarıyla eklendi...", "success");
   }
 }
 
@@ -57,5 +54,5 @@ function loadAllFilms() {
       url: "https://encrypted-tbn1.gstatic.com/images?q=tbn:ANd9GcQVexG4k8hzX9xhBoQLlQvTKi9Zx3P4fcZRsuSk3Uly_3UVv711CsuNPPdBgk_3spvikdinSjrpz81j9f8AxspFAVw2VCaxV6xftrygUj2HMQ",
     },
   ];
-  ui.loadAllFilms(films);
+  UI.loadAllFilms(films);
 }
