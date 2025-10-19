@@ -1,0 +1,2 @@
+- Hava durumu uygulaması: geçen hafta verilen apiler ile, hava durumuna göre tema değişecek.
+- Alışveriş sepeti: ürünler ekranı, ürün ekleme, çıkarma, toplam fiyat hesaplama.
